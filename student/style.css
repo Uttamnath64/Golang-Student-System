@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.tabHeader {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.addBtn {
+    padding: 10px 20px;
+    color: white;
+    background: green;
+}
+
+.btn {
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+}
+
+.table {
+    margin: 10px 50px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    width: 10%;
+}
+
+.subBtn {
+    display: flex;
+    gap: 5px;
+}
+
+.subBtn a {
+    width: 50%;
+    text-decoration: none;
+}
+
+tr:first-child th {
+    padding: 5px 0;
+    border-bottom: 1px solid #000;
+}
+
+tr td {
+    padding: 5px 0;
+}
+
+.edit {
+    background: green;
+}
+
+.delete {
+    background: red;
+}
